@@ -1,0 +1,76 @@
+{
+    "applicationName": "ManualAnnotations",
+    "recordingID": "SeiteBeinMamaHandySeite",
+    "intervals": [
+        {
+            "start": "00:00:07.045",
+            "end": "00:00:07.692",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:07.692",
+            "end": "00:00:08.501",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:08.501",
+            "end": "00:00:09.228",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:09.228",
+            "end": "00:00:09.916",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:09.916",
+            "end": "00:00:10.522",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:10.522",
+            "end": "00:00:11.304",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:11.318",
+            "end": "00:00:11.911",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:11.924",
+            "end": "00:00:12.692",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:12.706",
+            "end": "00:00:13.299",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:13.299",
+            "end": "00:00:14.121",
+            "annotations": {
+                "phase": "2"
+            }
+        }
+    ]
+}
