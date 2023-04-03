@@ -1,0 +1,76 @@
+{
+    "applicationName": "ManualAnnotations",
+    "recordingID": "ObenBeinMama",
+    "intervals": [
+        {
+            "start": "00:00:05.812",
+            "end": "00:00:06.624",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:06.624",
+            "end": "00:00:07.437",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:07.451",
+            "end": "00:00:08.193",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:08.193",
+            "end": "00:00:09.048",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:09.048",
+            "end": "00:00:09.763",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:09.763",
+            "end": "00:00:10.603",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:10.603",
+            "end": "00:00:11.318",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:11.332",
+            "end": "00:00:12.186",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:12.186",
+            "end": "00:00:12.901",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:12.901",
+            "end": "00:00:13.755",
+            "annotations": {
+                "phase": "2"
+            }
+        }
+    ]
+}

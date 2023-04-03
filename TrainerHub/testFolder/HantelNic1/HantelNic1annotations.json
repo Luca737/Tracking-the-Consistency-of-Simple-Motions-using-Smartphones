@@ -1,0 +1,195 @@
+{
+    "applicationName": "ManualAnnotations",
+    "recordingID": "HantelNic1",
+    "intervals": [
+        {
+            "start": "00:00:06.376",
+            "end": "00:00:07.311",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:07.311",
+            "end": "00:00:08.084",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:08.084",
+            "end": "00:00:09.310",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:10.019",
+            "end": "00:00:11.083",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:11.083",
+            "end": "00:00:12.082",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:12.082",
+            "end": "00:00:13.307",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:13.855",
+            "end": "00:00:15.145",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:15.145",
+            "end": "00:00:16.241",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:16.241",
+            "end": "00:00:17.756",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:17.949",
+            "end": "00:00:19.207",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:19.207",
+            "end": "00:00:20.174",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:20.174",
+            "end": "00:00:21.754",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:21.754",
+            "end": "00:00:22.882",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:22.882",
+            "end": "00:00:23.591",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:23.591",
+            "end": "00:00:25.300",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:25.300",
+            "end": "00:00:26.718",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:26.718",
+            "end": "00:00:27.460",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:27.460",
+            "end": "00:00:28.911",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:28.911",
+            "end": "00:00:30.265",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:30.265",
+            "end": "00:00:30.942",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:30.942",
+            "end": "00:00:32.521",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:32.521",
+            "end": "00:00:33.972",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:33.972",
+            "end": "00:00:34.875",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:34.875",
+            "end": "00:00:36.422",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:36.422",
+            "end": "00:00:37.615",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:37.615",
+            "end": "00:00:38.614",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:38.614",
+            "end": "00:00:39.936",
+            "annotations": {
+                "phase": "2"
+            }
+        }
+    ]
+}

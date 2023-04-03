@@ -1,0 +1,216 @@
+{
+    "applicationName": "ManualAnnotations",
+    "recordingID": "ObenBeinNic2",
+    "intervals": [
+        {
+            "start": "00:00:11.784",
+            "end": "00:00:12.617",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:12.617",
+            "end": "00:00:13.867",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:13.867",
+            "end": "00:00:15.071",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:16.181",
+            "end": "00:00:17.155",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:17.155",
+            "end": "00:00:18.636",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:18.636",
+            "end": "00:00:19.747",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:20.997",
+            "end": "00:00:21.877",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:21.877",
+            "end": "00:00:23.220",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:23.220",
+            "end": "00:00:24.284",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:25.164",
+            "end": "00:00:26.229",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:26.229",
+            "end": "00:00:27.479",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:27.479",
+            "end": "00:00:28.683",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:29.331",
+            "end": "00:00:30.396",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:30.396",
+            "end": "00:00:31.738",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:31.738",
+            "end": "00:00:33.174",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:33.498",
+            "end": "00:00:34.563",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:34.563",
+            "end": "00:00:36.137",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:36.137",
+            "end": "00:00:37.387",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:37.989",
+            "end": "00:00:38.961",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:38.961",
+            "end": "00:00:40.303",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:40.303",
+            "end": "00:00:41.415",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:41.924",
+            "end": "00:00:43.035",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:43.035",
+            "end": "00:00:44.424",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:44.424",
+            "end": "00:00:45.535",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:46.091",
+            "end": "00:00:47.202",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:47.202",
+            "end": "00:00:48.776",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:48.776",
+            "end": "00:00:50.072",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:50.396",
+            "end": "00:00:51.508",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:51.508",
+            "end": "00:00:53.035",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:53.035",
+            "end": "00:00:54.424",
+            "annotations": {
+                "phase": "2"
+            }
+        }
+    ]
+}

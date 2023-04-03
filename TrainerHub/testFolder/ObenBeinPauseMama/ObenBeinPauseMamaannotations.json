@@ -1,0 +1,111 @@
+{
+    "applicationName": "ManualAnnotations",
+    "recordingID": "ObenBeinPauseMama",
+    "intervals": [
+        {
+            "start": "00:00:04.294",
+            "end": "00:00:05.237",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:05.237",
+            "end": "00:00:06.181",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:06.181",
+            "end": "00:00:07.169",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:08.595",
+            "end": "00:00:09.561",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:09.561",
+            "end": "00:00:10.900",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:10.900",
+            "end": "00:00:12.019",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:13.095",
+            "end": "00:00:14.192",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:14.192",
+            "end": "00:00:15.443",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:15.443",
+            "end": "00:00:16.606",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:17.814",
+            "end": "00:00:18.735",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:18.735",
+            "end": "00:00:19.833",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:19.833",
+            "end": "00:00:21.040",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:22.181",
+            "end": "00:00:23.015",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:23.015",
+            "end": "00:00:24.222",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:24.222",
+            "end": "00:00:25.232",
+            "annotations": {
+                "phase": "2"
+            }
+        }
+    ]
+}
