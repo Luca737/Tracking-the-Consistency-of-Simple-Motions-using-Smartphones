@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32532CA29466B78002A293D /* CollectSensorDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32532C929466B78002A293D /* CollectSensorDataApp.swift */; };
+		B32532CC29466B78002A293D /* SensorDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32532CB29466B78002A293D /* SensorDataView.swift */; };
+		B32532CE29466B79002A293D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32532CD29466B79002A293D /* Assets.xcassets */; };
+		B32532D129466B79002A293D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32532D029466B79002A293D /* Preview Assets.xcassets */; };
+		B32532DB29466B79002A293D /* CollectSensorDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32532DA29466B79002A293D /* CollectSensorDataTests.swift */; };
+		B32532E529466B79002A293D /* CollectSensorDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32532E429466B79002A293D /* CollectSensorDataUITests.swift */; };
+		B32532E729466B79002A293D /* CollectSensorDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32532E629466B79002A293D /* CollectSensorDataUITestsLaunchTests.swift */; };
+		B3253310294B3814002A293D /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B325330F294B3814002A293D /* SensorData.swift */; };
+		B3253312294C8E00002A293D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3253311294C8E00002A293D /* CustomButton.swift */; };
+		B37FBF4B2964C11800965F55 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FBF4A2964C11800965F55 /* Networking.swift */; };
+		B37FBF4D2965C02C00965F55 /* SensorDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FBF4C2965C02C00965F55 /* SensorDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B32532D729466B79002A293D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32532BE29466B78002A293D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32532C529466B78002A293D;
+			remoteInfo = CollectSensorData;
+		};
+		B32532E129466B79002A293D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32532BE29466B78002A293D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32532C529466B78002A293D;
+			remoteInfo = CollectSensorData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B32532C629466B78002A293D /* CollectSensorData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectSensorData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32532C929466B78002A293D /* CollectSensorDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectSensorDataApp.swift; sourceTree = "<group>"; };
+		B32532CB29466B78002A293D /* SensorDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDataView.swift; sourceTree = "<group>"; };
+		B32532CD29466B79002A293D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B32532D029466B79002A293D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B32532D629466B79002A293D /* CollectSensorDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectSensorDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32532DA29466B79002A293D /* CollectSensorDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectSensorDataTests.swift; sourceTree = "<group>"; };
+		B32532E029466B79002A293D /* CollectSensorDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectSensorDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32532E429466B79002A293D /* CollectSensorDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectSensorDataUITests.swift; sourceTree = "<group>"; };
+		B32532E629466B79002A293D /* CollectSensorDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectSensorDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B325330F294B3814002A293D /* SensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorData.swift; sourceTree = "<group>"; };
+		B3253311294C8E00002A293D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B37FBF4A2964C11800965F55 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		B37FBF4C2965C02C00965F55 /* SensorDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDataModel.swift; sourceTree = "<group>"; };
+		B37FBF4E296735B800965F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32532C329466B78002A293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32532D329466B79002A293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32532DD29466B79002A293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B32532BD29466B78002A293D = {
+			isa = PBXGroup;
+			children = (
+				B32532C829466B78002A293D /* CollectSensorData */,
+				B32532D929466B79002A293D /* CollectSensorDataTests */,
+				B32532E329466B79002A293D /* CollectSensorDataUITests */,
+				B32532C729466B78002A293D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B32532C729466B78002A293D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32532C629466B78002A293D /* CollectSensorData.app */,
+				B32532D629466B79002A293D /* CollectSensorDataTests.xctest */,
+				B32532E029466B79002A293D /* CollectSensorDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32532C829466B78002A293D /* CollectSensorData */ = {
+			isa = PBXGroup;
+			children = (
+				B37FBF4E296735B800965F55 /* Info.plist */,
+				B32532C929466B78002A293D /* CollectSensorDataApp.swift */,
+				B32532CB29466B78002A293D /* SensorDataView.swift */,
+				B37FBF4C2965C02C00965F55 /* SensorDataModel.swift */,
+				B37FBF4A2964C11800965F55 /* Networking.swift */,
+				B325330F294B3814002A293D /* SensorData.swift */,
+				B3253311294C8E00002A293D /* CustomButton.swift */,
+				B32532CD29466B79002A293D /* Assets.xcassets */,
+				B32532CF29466B79002A293D /* Preview Content */,
+			);
+			path = CollectSensorData;
+			sourceTree = "<group>";
+		};
+		B32532CF29466B79002A293D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B32532D029466B79002A293D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B32532D929466B79002A293D /* CollectSensorDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				B32532DA29466B79002A293D /* CollectSensorDataTests.swift */,
+			);
+			path = CollectSensorDataTests;
+			sourceTree = "<group>";
+		};
+		B32532E329466B79002A293D /* CollectSensorDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B32532E429466B79002A293D /* CollectSensorDataUITests.swift */,
+				B32532E629466B79002A293D /* CollectSensorDataUITestsLaunchTests.swift */,
+			);
+			path = CollectSensorDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32532C529466B78002A293D /* CollectSensorData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32532EA29466B79002A293D /* Build configuration list for PBXNativeTarget "CollectSensorData" */;
+			buildPhases = (
+				B32532C229466B78002A293D /* Sources */,
+				B32532C329466B78002A293D /* Frameworks */,
+				B32532C429466B78002A293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectSensorData;
+			productName = CollectSensorData;
+			productReference = B32532C629466B78002A293D /* CollectSensorData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B32532D529466B79002A293D /* CollectSensorDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32532ED29466B79002A293D /* Build configuration list for PBXNativeTarget "CollectSensorDataTests" */;
+			buildPhases = (
+				B32532D229466B79002A293D /* Sources */,
+				B32532D329466B79002A293D /* Frameworks */,
+				B32532D429466B79002A293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32532D829466B79002A293D /* PBXTargetDependency */,
+			);
+			name = CollectSensorDataTests;
+			productName = CollectSensorDataTests;
+			productReference = B32532D629466B79002A293D /* CollectSensorDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B32532DF29466B79002A293D /* CollectSensorDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32532F029466B79002A293D /* Build configuration list for PBXNativeTarget "CollectSensorDataUITests" */;
+			buildPhases = (
+				B32532DC29466B79002A293D /* Sources */,
+				B32532DD29466B79002A293D /* Frameworks */,
+				B32532DE29466B79002A293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32532E229466B79002A293D /* PBXTargetDependency */,
+			);
+			name = CollectSensorDataUITests;
+			productName = CollectSensorDataUITests;
+			productReference = B32532E029466B79002A293D /* CollectSensorDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32532BE29466B78002A293D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B32532C529466B78002A293D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B32532D529466B79002A293D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B32532C529466B78002A293D;
+					};
+					B32532DF29466B79002A293D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B32532C529466B78002A293D;
+					};
+				};
+			};
+			buildConfigurationList = B32532C129466B78002A293D /* Build configuration list for PBXProject "CollectSensorData" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B32532BD29466B78002A293D;
+			productRefGroup = B32532C729466B78002A293D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32532C529466B78002A293D /* CollectSensorData */,
+				B32532D529466B79002A293D /* CollectSensorDataTests */,
+				B32532DF29466B79002A293D /* CollectSensorDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32532C429466B78002A293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32532D129466B79002A293D /* Preview Assets.xcassets in Resources */,
+				B32532CE29466B79002A293D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32532D429466B79002A293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32532DE29466B79002A293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32532C229466B78002A293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3253312294C8E00002A293D /* CustomButton.swift in Sources */,
+				B32532CC29466B78002A293D /* SensorDataView.swift in Sources */,
+				B37FBF4B2964C11800965F55 /* Networking.swift in Sources */,
+				B37FBF4D2965C02C00965F55 /* SensorDataModel.swift in Sources */,
+				B32532CA29466B78002A293D /* CollectSensorDataApp.swift in Sources */,
+				B3253310294B3814002A293D /* SensorData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32532D229466B79002A293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32532DB29466B79002A293D /* CollectSensorDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32532DC29466B79002A293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32532E529466B79002A293D /* CollectSensorDataUITests.swift in Sources */,
+				B32532E729466B79002A293D /* CollectSensorDataUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32532D829466B79002A293D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32532C529466B78002A293D /* CollectSensorData */;
+			targetProxy = B32532D729466B79002A293D /* PBXContainerItemProxy */;
+		};
+		B32532E229466B79002A293D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32532C529466B78002A293D /* CollectSensorData */;
+			targetProxy = B32532E129466B79002A293D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B32532E829466B79002A293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B32532E929466B79002A293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B32532EB29466B79002A293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CollectSensorData/Preview Content\"";
+				DEVELOPMENT_TEAM = VQ65YNYT5J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollectSensorData/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicola-Vidovic.CollectSensorData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B32532EC29466B79002A293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CollectSensorData/Preview Content\"";
+				DEVELOPMENT_TEAM = VQ65YNYT5J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollectSensorData/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicola-Vidovic.CollectSensorData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B32532EE29466B79002A293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicola-Vidovic.CollectSensorDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectSensorData.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollectSensorData";
+			};
+			name = Debug;
+		};
+		B32532EF29466B79002A293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicola-Vidovic.CollectSensorDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectSensorData.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollectSensorData";
+			};
+			name = Release;
+		};
+		B32532F129466B79002A293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicola-Vidovic.CollectSensorDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollectSensorData;
+			};
+			name = Debug;
+		};
+		B32532F229466B79002A293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicola-Vidovic.CollectSensorDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollectSensorData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32532C129466B78002A293D /* Build configuration list for PBXProject "CollectSensorData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32532E829466B79002A293D /* Debug */,
+				B32532E929466B79002A293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32532EA29466B79002A293D /* Build configuration list for PBXNativeTarget "CollectSensorData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32532EB29466B79002A293D /* Debug */,
+				B32532EC29466B79002A293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32532ED29466B79002A293D /* Build configuration list for PBXNativeTarget "CollectSensorDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32532EE29466B79002A293D /* Debug */,
+				B32532EF29466B79002A293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32532F029466B79002A293D /* Build configuration list for PBXNativeTarget "CollectSensorDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32532F129466B79002A293D /* Debug */,
+				B32532F229466B79002A293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B32532BE29466B78002A293D /* Project object */;
+}
