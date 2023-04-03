@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+if [ $# -ne 2 ]; then
+    echo "Not enough arguments - need 2"
+    exit 1
+fi
+
+pushd ${1}
+
+if [ -f "${2}.zip" ]; then
+    echo "Zip File already exists: ${2}.zip"
+else
+    zip -rX $2 $2
+    rm -r $2
+fi
+
+popd
+echo "Done"

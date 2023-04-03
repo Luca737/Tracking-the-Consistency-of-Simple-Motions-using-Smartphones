@@ -1,0 +1,69 @@
+{
+    "applicationName": "ManualAnnotations",
+    "recordingID": "TableFlatArm3",
+    "intervals": [
+        {
+            "start": "00:00:00.894",
+            "end": "00:00:02.098",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:02.098",
+            "end": "00:00:02.797",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:02.797",
+            "end": "00:00:04.102",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:04.663",
+            "end": "00:00:06.087",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:06.097",
+            "end": "00:00:06.703",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:06.703",
+            "end": "00:00:07.990",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:08.633",
+            "end": "00:00:09.948",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:09.948",
+            "end": "00:00:10.628",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:10.628",
+            "end": "00:00:11.777",
+            "annotations": {
+                "phase": "2"
+            }
+        }
+    ]
+}
