@@ -1,0 +1,14 @@
+RECORDINGS_PATH = "../TrainerHub/FlatArmPCA/"
+BEST_AXIS_FILE_NAME = "BestAxis.txt"
+AUTO_BEST_AXIS_FILE_NAME = "AutoBestAxis.txt"
+
+# Sampling frequency of motion data.
+FS = 100
+
+YELLOW = ["\033[33m", "\033[00m"]
+RED = ["\033[31m", "\033[00m"]
+GREEN = ["\033[92m", "\033[00m"]
+
+MOTION_INTERVAL_OFFSET_DEFAULT = 1.5
+# Must be <= MOTION_INTERVAL_OFFSET_DEFAULT
+ALLOWED_INTERVAL_MATCHING_ERROR_DEFAULT = 1
