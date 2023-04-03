@@ -1,0 +1,3 @@
+linearAcceleration=x-
+gravity=z
+rotationRate=z

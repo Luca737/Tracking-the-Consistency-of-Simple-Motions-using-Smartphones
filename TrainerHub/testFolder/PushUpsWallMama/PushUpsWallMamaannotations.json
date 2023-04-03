@@ -1,0 +1,90 @@
+{
+    "applicationName": "ManualAnnotations",
+    "recordingID": "PushUpsWallMama",
+    "intervals": [
+        {
+            "start": "00:00:08.943",
+            "end": "00:00:10.083",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:10.083",
+            "end": "00:00:11.294",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:11.294",
+            "end": "00:00:12.624",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:12.624",
+            "end": "00:00:13.931",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:13.931",
+            "end": "00:00:15.261",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:15.261",
+            "end": "00:00:16.567",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:16.686",
+            "end": "00:00:17.992",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:17.992",
+            "end": "00:00:19.417",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:19.512",
+            "end": "00:00:20.842",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:20.842",
+            "end": "00:00:22.172",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:22.196",
+            "end": "00:00:23.621",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:23.621",
+            "end": "00:00:25.141",
+            "annotations": {
+                "phase": "2"
+            }
+        }
+    ]
+}
