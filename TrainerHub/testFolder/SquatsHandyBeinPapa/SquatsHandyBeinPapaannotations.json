@@ -1,0 +1,111 @@
+{
+    "applicationName": "ManualAnnotations",
+    "recordingID": "SquatsHandyBeinPapa",
+    "intervals": [
+        {
+            "start": "00:00:10.237",
+            "end": "00:00:11.602",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:11.602",
+            "end": "00:00:12.663",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:12.663",
+            "end": "00:00:13.997",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:15.119",
+            "end": "00:00:16.332",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:16.332",
+            "end": "00:00:17.727",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:17.727",
+            "end": "00:00:19.001",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:20.153",
+            "end": "00:00:21.578",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:21.578",
+            "end": "00:00:22.852",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:22.852",
+            "end": "00:00:23.913",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:24.429",
+            "end": "00:00:26.036",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:26.036",
+            "end": "00:00:27.491",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:27.491",
+            "end": "00:00:28.401",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:29.371",
+            "end": "00:00:30.766",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:30.766",
+            "end": "00:00:32.222",
+            "annotations": {
+                "phase": "1"
+            }
+        },
+        {
+            "start": "00:00:32.222",
+            "end": "00:00:33.132",
+            "annotations": {
+                "phase": "2"
+            }
+        }
+    ]
+}

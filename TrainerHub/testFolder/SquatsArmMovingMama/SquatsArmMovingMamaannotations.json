@@ -1,0 +1,90 @@
+{
+    "applicationName": "ManualAnnotations",
+    "recordingID": "SquatsArmMovingMama",
+    "intervals": [
+        {
+            "start": "00:00:07.030",
+            "end": "00:00:07.980",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:07.980",
+            "end": "00:00:09.050",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:09.070",
+            "end": "00:00:10.120",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:10.120",
+            "end": "00:00:11.170",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:11.170",
+            "end": "00:00:12.283",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:12.283",
+            "end": "00:00:13.370",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:13.370",
+            "end": "00:00:14.360",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:14.400",
+            "end": "00:00:15.480",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:15.480",
+            "end": "00:00:16.500",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:16.500",
+            "end": "00:00:17.680",
+            "annotations": {
+                "phase": "2"
+            }
+        },
+        {
+            "start": "00:00:17.680",
+            "end": "00:00:18.700",
+            "annotations": {
+                "phase": "0"
+            }
+        },
+        {
+            "start": "00:00:18.700",
+            "end": "00:00:19.860",
+            "annotations": {
+                "phase": "2"
+            }
+        }
+    ]
+}
