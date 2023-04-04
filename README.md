@@ -5,7 +5,7 @@ This is most of the source code for my thesis.
 ConstistencyTracker is the swift app build the in the last section of my Implementation chapter in my thesis. It records the users exercise motion data and analyze it using 3 motion data types, linear acceleration, gravity and rotation rate. For these three types for every axis the repetitions of the user are calculated. From them several statistics are calculated and presented to the user.
 This app can be connected to a TrainerHub session running on the same wifi to send the raw motion data and the calculated repetition intervals, as well as additionally starting video capture during the motion recording (eg. for recording a larger data set)
 
-## SensorDataCollect (SensApp)
+## CollectSensorData (SensApp)
 SensApp is the initial app build for collecting the motion data set for this thesis. It requires a TrainerHub session to run on the same wifi to connect to. When starting a recording SensApp start the motion capture and signals TrainerHub to start the video capture. The resulting data is package into a zip and saved on the host machine running TrainerHub.
 
 ## TrainerHub
