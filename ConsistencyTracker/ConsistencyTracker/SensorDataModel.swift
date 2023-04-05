@@ -1,3 +1,5 @@
+//  Created by Nicola Vidovic
+
 import Foundation
 
 typealias FormattedElapsedTime = String

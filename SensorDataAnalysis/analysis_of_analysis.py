@@ -1,4 +1,5 @@
-"""
+"""Author: Nicola Vidovic
+
 Simple brute forcing of the parameters for that the analysis methods use (for zero platos, zero points, extrema, ...).
 However this is too slow, without optimizing the loading of the motion data files and more. While I
 also wanted to use hill climbing I decided against it, as trying by hand was simple and way faster.

@@ -1,4 +1,8 @@
-"""PCA and LDA, I build in ML1."""
+"""Author: Nicola Vidovic
+
+PCA and LDA, I build in ML1.
+
+"""
 
 import numpy as np
 

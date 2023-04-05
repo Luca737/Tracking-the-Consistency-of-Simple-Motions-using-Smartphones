@@ -1,5 +1,9 @@
-"""Used for producing some smaller statistics for easier fine tuning of methods.
-Note that this has to be eddied by hand to produce different statistics."""
+"""Author: Nicola Vidovic
+
+Used for producing some smaller statistics for easier fine tuning of methods.
+Note that this has to be eddied by hand to produce different statistics.
+
+"""
 
 import os
 

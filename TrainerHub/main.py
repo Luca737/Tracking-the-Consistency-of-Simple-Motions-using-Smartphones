@@ -1,3 +1,5 @@
+"""Author: Nicola Vidovic"""
+
 import signal
 import sys
 import threading

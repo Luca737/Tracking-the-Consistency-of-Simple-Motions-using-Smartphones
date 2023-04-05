@@ -1,4 +1,5 @@
-"""
+"""Author: Nicola Vidovic
+
 This files includes all developed analysis methods of all motion data types.
 
 """

@@ -1,4 +1,8 @@
-"""Runs the data transformations on all recordings."""
+"""Author: Nicola Vidovic
+
+Runs the data transformations on all recordings.
+
+"""
 
 import os
 

@@ -1,4 +1,8 @@
-"""File IO stuff for reading and writing into zips, jsons and best axes files"""
+"""Author: Nicola Vidovic
+
+File IO stuff for reading and writing into zips, jsons and best axes files
+
+"""
 
 import json
 import os

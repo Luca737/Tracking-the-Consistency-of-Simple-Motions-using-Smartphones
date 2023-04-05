@@ -1,4 +1,8 @@
-"""Different filter implementations."""
+"""Author: Nicola Vidovic
+
+Different filter implementations.
+
+"""
 
 from math import cos
 from math import pi as PI

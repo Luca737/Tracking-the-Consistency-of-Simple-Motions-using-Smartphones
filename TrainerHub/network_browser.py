@@ -1,3 +1,5 @@
+"""Author: Nicola Vidovic"""
+
 from typing import Callable
 
 from connection import Connection

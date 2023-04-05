@@ -1,3 +1,5 @@
+"""Author: Nicola Vidovic"""
+
 import os
 import subprocess
 import threading

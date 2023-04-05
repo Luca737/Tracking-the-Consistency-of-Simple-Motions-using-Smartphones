@@ -1,5 +1,9 @@
-"""This method is used for all transformations done to the recorded data.
-The transformed data can then be viewed in VIT."""
+"""Author: Nicola Vidovic
+
+This method is used for all transformations done to the recorded data.
+The transformed data can then be viewed in VIT.
+
+"""
 
 import os
 from time import sleep

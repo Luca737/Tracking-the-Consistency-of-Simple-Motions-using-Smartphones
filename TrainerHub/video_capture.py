@@ -1,3 +1,5 @@
+"""Author: Nicola Vidovic"""
+
 import threading
 import time
 from typing import Callable

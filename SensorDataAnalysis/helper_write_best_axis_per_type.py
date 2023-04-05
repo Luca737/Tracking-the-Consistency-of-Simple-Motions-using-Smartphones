@@ -1,5 +1,9 @@
-"""For writing the best axis for each data type into a separate file for further analysis
-or for using them in the transformations."""
+"""Author: Nicola Vidovic
+
+For writing the best axis for each data type into a separate file for further analysis
+or for using them in the transformations.
+
+"""
 
 import os
 

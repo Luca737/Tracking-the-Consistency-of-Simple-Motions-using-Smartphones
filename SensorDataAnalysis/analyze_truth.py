@@ -1,4 +1,5 @@
-"""
+"""Author: Nicola Vidovic
+
 Here all functions that run/test all analysis methods on the provided dataset are included.
 
 Most of the functions here are deprecated, but I have left them in for the history. The most

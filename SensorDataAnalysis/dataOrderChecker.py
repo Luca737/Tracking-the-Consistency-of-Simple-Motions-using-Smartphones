@@ -1,4 +1,8 @@
-"""Check the order of the phases in the recording json files"""
+"""Author: Nicola Vidovic
+
+Check the order of the phases in the recording json files
+
+"""
 
 import os
 

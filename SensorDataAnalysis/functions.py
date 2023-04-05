@@ -1,4 +1,8 @@
-"""Various helper functions."""
+"""Author: Nicola Vidovic
+
+Various helper functions.
+
+"""
 
 import os
 from enum import Enum
